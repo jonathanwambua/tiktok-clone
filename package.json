@@ -1,0 +1,32 @@
+{
+  "name": "tiktok_clone",
+  "private": true,
+  "version": "0.0.1",
+  "author": {
+    "name": "Jonathan Wambua",
+    "email": "jonathanwambua10219@gmail.com",
+    "url": "https://www.wambua.dev"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "npx nuxi generate",
+    "preview": "npx serve '.output/public/'",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.2",
+    "autoprefixer": "^10.4.16",
+    "nuxt": "^3.7.4",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "nuxt-icon": "^0.5.0",
+    "pinia": "^2.1.6"
+  }
+}
